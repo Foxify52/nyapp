@@ -1,0 +1,38 @@
+name: nyapp
+description: A torrent scraper.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  anilist_api:
+    git: https://github.com/Foxify52/anilist-graphql-dart.git
+  dtorrent_parser : ^1.0.4
+  events_emitter2: ^1.0.3
+  dtorrent_task: ^0.3.3
+  html: ^0.15.4
+  http: ^0.13.6
+  media_kit: ^1.1.8+2
+  media_kit_video: ^1.2.1
+  media_kit_libs_video: ^1.0.3
+  path_provider: ^2.1.1
+  flutter_cache_manager: ^3.3.1
+  carousel_slider: ^4.2.1
+  shared_preferences: ^2.2.2
+  window_manager: ^0.3.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Quicksand
+      fonts:
+        - asset: assets/fonts/Quicksand-Regular.ttf
