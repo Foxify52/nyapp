@@ -3,7 +3,7 @@
 An anilist torrent client app built with Flutter for Android, Ios, Windows, Mac and Linux. This app is still extremely early in development but has support for video downloading, caching and history.
 This was created as a proof of concept for dart based torrenting and when provided with a url for a user's personal media server, can be used to download and play media.
 
-[discord](https://discord.com/invite/9E7qes59n5)
+Note: I opted to get rid of the discord as I don't actively maintain this.
 
 ## TODO
 - [ ] Add support for epub files
